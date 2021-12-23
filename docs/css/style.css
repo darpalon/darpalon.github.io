@@ -1,1 +1,1 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-rtl.min.css";@import url("http://fonts.cdnfonts.com/css/jetbrains-mono");pre{font:12pt 'JetBrains Mono';border-radius:15px}
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-rtl.min.css";@import url("https://cdnjs.cloudflare.com/ajax/libs/IBM-type/0.5.4/css/ibm-type.min.css");pre{border-radius:15px}pre span{font-family:'IBM Plex Mono';font-weight:700}

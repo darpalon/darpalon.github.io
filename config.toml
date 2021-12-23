@@ -4,7 +4,6 @@ description = ""
 
 output_dir = "docs"
 compile_sass = true
-minify_html = true
 
 build_search_index = true
 
