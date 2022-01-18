@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa" data-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Darplaon</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/tools/tools.js"></script>
+  <style>
+    pre { padding: 10px; }
+  </style>
+</head>
+
+<body>
+  <div id="navbar" class="container-fluid">
+    <nav class="container">
+      <ul>
+        <li><a href="/" class="contrast"><strong>دارپلون</strong></a></li>
+      </ul>
+      <ul>
+        <li><a href="#" class="contrast"></a></li>
+      </ul>
+    </nav>
+  </div>
+  <main class="container">
+    <div class="grid">
+      <section>
+        <pre id="icode"></pre>
+      </section>
+      <aside></aside>
+    </div>
+  </main>
+  <footer id="footer" class="container-fluid">
+  </footer>
+  <script>
+    document.querySelector('#icode').innerHTML = icode(10).join('\n');
+  </script>
+</body>
+
+</html>
