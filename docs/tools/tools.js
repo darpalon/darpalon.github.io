@@ -1,6 +1,6 @@
 function icode(n) {
   let out = [];
-  let a = '0123456789'.repeat(4).split('');
+  let a = new Int8Array('0123456789'.repeat(4).split(''));
   while (n--) {
     a.sort((x, y) => Math.random() - Math.random());
     let s = 0;
